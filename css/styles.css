@@ -1,0 +1,42 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background-color: #f3f4fb;
+}
+
+.bg-network {
+  background-image: url('/images/back-network.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+}
+
+.photo {
+  width: 50%;
+  background-image: url('/images/gabriel-miranda.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-right: 5vh;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-network {
+    background-position: top center;
+  }
+  .photo {
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    margin-top: 5vh;
+  }
+}
