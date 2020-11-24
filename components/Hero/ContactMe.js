@@ -15,7 +15,7 @@ const ContactMe = () => {
           <li className="text-6xl w-1/3 inline-block">
             <a
               className=""
-              href="https://www.linkedin.com/in/gabriel-miranda-63729038/"
+              href="https://www.linkedin.com/in/gabriel-mirand/"
               target="_blank"
             >
               <FaLinkedin />
